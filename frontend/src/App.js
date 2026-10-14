@@ -16,7 +16,7 @@ function App() {
       setTasks(res.data);
       setError('');
     } catch (err) {
-      setError('Could not load tasks. Is the backend running?');
+      setError('');
     } finally {
       setLoading(false);
     }
